@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/add_product_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD PRODUCTS"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:layout_below="@id/add_product_textview"
+        android:id="@+id/linear_category_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/construction_materials_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/constructionicon"
+            android:background="@drawable/input_design"
+            android:contentDescription="TODO" />
+
+        <Space
+            android:layout_width="31dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/properties_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/properties"
+            android:background="@drawable/input_design"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_category_layout1"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/architecture_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/architecture"
+            android:background="@drawable/input_design"
+            android:contentDescription="TODO" />
+
+        <Space
+            android:layout_width="31dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/joint_ventures_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/jointventure"
+            android:background="@drawable/input_design"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_category_layout2"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/contractorship_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/contractorship"
+            android:background="@drawable/input_design"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

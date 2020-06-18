@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "292351338936",
+    "firebase_url": "https://civilmart-c2216.firebaseio.com",
+    "project_id": "civilmart-c2216",
+    "storage_bucket": "civilmart-c2216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292351338936:android:77b1a097bbdea0bd2a874d",
+        "android_client_info": {
+          "package_name": "civilmart.sanshub.com.civilmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292351338936-qr6phthngacl3g221rtk41k8gng0dpsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "civilmart.sanshub.com.civilmart",
+            "certificate_hash": "12e328b74c573e609148e4f3f1c8fdd06180e895"
+          }
+        },
+        {
+          "client_id": "292351338936-hc6k435jjkn5rcaibpagck38ijnjhl6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuCnovAiS0XWqcsMq7oOzy-BnVJh3v6BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292351338936-hc6k435jjkn5rcaibpagck38ijnjhl6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
